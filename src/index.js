@@ -1,4 +1,6 @@
 import ReactDOM from 'react-dom/client';
+import AwesomeCard from './AwesomeCard';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h1>First Flight🛫</h1>);
+root.render(<><AwesomeCard/><AwesomeCard/><AwesomeCard/></>);
